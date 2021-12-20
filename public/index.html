@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bulma.min.css" type=" text/css"/>
+    <title>Aktuelle Position</title>
+    <script src="index.js" defer="defer"></script>
+  </head>
+
+  <body>
+    <section class="section"> 
+      <div class="container">
+          <div class="columns">
+              <div class="column is-narrow">
+                <div class="box">
+                    <h1 class="title is-3">Wo bin ich?</h1>
+                    <button class="button is-primary" id="btnstart">Jetzt Ermitteln</button>  
+                </div>
+              </div>
+          </div>
+      </div>
+      <br>
+      <div class="container">
+          <div class="columns">
+              <div class="column is-narrow">
+                <div class="box"> 
+                  <h1 class = "title is-5"> Breitengrad</h1>
+                  <h2 class = "subtitle is-6" id="latitude">0.0</h2>    
+                </div>
+              </div>
+              <div class="column is-narrow">
+                <div class="box">
+                  <h1 class = "title is-5"> Längengrad</h1>
+                  <h2 class="subtitle is-6" id="longitude">0.0</h2>
+                </div>
+              </div>
+              <div class="column">
+                <div class="box">
+                  <h1 class = "title is-5"> Hinweis</h1>
+                  <h2 class = "subtitle is-6" id="hinweis">noch nichts passiert</h2>  
+                </div>
+              </div>
+          </div>
+          
+      </div>
+    </section>
+  </body>
+</html>
+
